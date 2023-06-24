@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Suite" parallel="methods" >
+ <parameter name="username" value="prabhube"></parameter>
+  <parameter name="password" value="prem!1817"></parameter>
+  <test name="Test">
+  <classes>
+  <class name="org.one.ParallelTesting"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
